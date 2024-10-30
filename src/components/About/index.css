@@ -1,5 +1,7 @@
 .about {
     background-color: #f8f4ee;
+    background-size: cover;
+    min-height: 100vh;
     padding: 60px 20px;
     text-align: center;
 }

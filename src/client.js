@@ -1,8 +1,8 @@
-import { createClient } from '@sanity/client';
+import { createClient } from "@sanity/client";
 
 export default createClient({
-    projectId: "k6bkuwtx",
+    projectId: "k6bkuwtx", // Replace with your project ID
     dataset: "production",
-    apiVersion: "2023-10-30", // use a specific date or "v1" (ensure this matches your API version)
-    useCdn: true // set to false to disable the CDN cache, if you need the freshest data
+    apiVersion: "2023-10-30", // The version should match what’s set up in Sanity
+    useCdn: true, // Set to false if you want fresh data without cache
 });

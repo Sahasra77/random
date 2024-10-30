@@ -2,6 +2,8 @@
     background-color: #f8f4ee;
     padding: 60px 20px;
     text-align: center;
+    background-size: cover;
+    min-height: 100vh;
 }
 
 .events h2 {
