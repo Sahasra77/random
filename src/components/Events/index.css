@@ -1,0 +1,46 @@
+.events {
+    background-color: #f8f4ee;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.events h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.events-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.event-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 250px;
+    text-align: left;
+}
+
+.event-date {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ff7f50;
+    margin-bottom: 10px;
+}
+
+.event-title {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.event-description {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 15px;
+}

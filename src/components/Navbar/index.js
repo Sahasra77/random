@@ -1,6 +1,7 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import { CiSearch } from 'react-icons/ci';
+import React from 'react'
+import { NavLink } from 'react-router-dom'
+import { CiSearch } from 'react-icons/ci'
+import './index.css'
 
 const Navbar = () => {
     return (
